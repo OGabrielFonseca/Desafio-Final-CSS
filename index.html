@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,80 +9,135 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <title>HBO Max</title>
 </head>
+
 <body>
-    <nav>
-        <a href='#' class="logo-menu">
+    <nav class="menu">
+        <a href='#' class="menu__logo">
             <img src="/assets/images/hbo-logo.svg" alt="">
         </a>
-        <div class="nav-links">
-            <a href="" class="btn btn-sign-in">
+        <div class="menu__links">
+            <a href="" class="btn menu__btn--sign-in">
                 Entrar
             </a>
-            <a href="" class="btn btn-subscribe">
+            <a href="" class="btn menu__btn--subscribe">
                 Assine Agora
             </a>
         </div>
     </nav>
     <header class="header">
-        <div class="header-content">
-            <div class="header-logos">
+        <div class="header__content">
+            <div class="header__logos">
                 <img src="assets/images/hbo.png" alt="">
                 <img src="assets/images/dc.png" alt="">
                 <img src="assets/images/wb.png" alt="">
                 <img src="assets/images/cartoon-network_neutral.png" alt="">
                 <img src="assets/images/max_originals.png" alt="">
             </div>
-            <div class="header-title">
+            <div class="header__title">
                 <h1>
-                    <div class="title-thin">
+                    <div class="header__title--thin">
                         Curta as melhores histórias
                     </div>
-                    <div class="title-bold">
+                    <div class="header__title--bold">
                         Para todo mundo
                     </div>
                 </h1>
             </div>
-            <div class="section-divider">
+            <div class="divider">
             </div>
-            <div class="menu-price">
-                <p class="menu-price-description quisksand">
+            <div class="header__sale">
+                <p class="header__description--quisksand">
                     Assinaturas a partir de
                 </p>
-                <p class="menu-price-value">
-                    <span class="value">
+                <p class="header__value">
+                    <span class="text--price">
                         R$14,15
                     </span>
-                    <span class="month">
+                    <span class="text--month">
                         /mês*
                     </span>
                 </p>
             </div>
-            <a class='btn btn-subscribe-wiggle' href="#">
+            <a class='btn btn--gradient header__btn--wiggle' href="#">
                 Assine Agora
             </a>
-            <span class="price-rules">
+            <span class="header__rules">
                 *aplicável ao plano anual com o pagamento antecipado.
             </span>
         </div>
     </header>
     <main>
-        <section class="section-plans">
+        <section class="section__plans">
             <div class="container">
-                <div class="plans-description">
+                <div class="plans__description">
                     <h2>
                         Conheça nossos planos e economize na assinatura trimestral ou anual com o pagamento antecipado.
                     </h2>
                 </div>
-                <div class="plans-cards">
+                <div class="plans__cards">
                     <div class="card">
-
+                        <div>
+                            <div class="card__header">
+                                <h3>
+                                    Mobilie
+                                </h3>
+                                <div class="card__header--price">
+                                    <span class="price--bold">
+                                        R$19,90
+                                    </span>
+                                    <span class="price--thin">
+                                        /mês
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="card__list">
+                                <li>Aproveite em smartphones e tablets, onde quiser.</li>
+                                <li>Assista em 1 tela por vez.</li>
+                                <li>Tenha conteúdo em resolução adaptada para cada dispositivo.</li>
+                                <li>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="card__btn">
+                            <button href="" class="btn btn--gradient"> Escolher o plano mobile</button>
+                        </div>
+                        
                     </div>
                     <div class="card">
-                        
+                        <div>   
+                            <div class="card__header">
+                                <h3>
+                                    Multitelas
+                                </h3>
+                                <div class="card__header--price">
+                                    <span class="price--bold">
+                                        R$27,90
+                                    </span>
+                                    <span class="price--thin">
+                                        /mês
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="card__list">
+                                <li>Aproveite em todos os seus dispositivos.</li>
+                                <li>Chromecast e Airplay disponíveis.</li>
+                                <li>Assista em até 3 telas ao mesmo tempo.</li>
+                                <li>Tenha conteúdo em alta definição, com qualidade 4K.</li>
+                                <li>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</li>
+                                <li>Crie até 5 perfis diferentes.</li>
+                            </ul>
+                        </div>
+                        <div class="card__btn">
+                            <button href="" class="btn btn--gradient"> Escolher o plano multitelas</button>
+                        </div>    
+                    </div>
+                    
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
