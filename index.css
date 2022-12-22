@@ -1,0 +1,285 @@
+@import url(/assets/css/global.css);
+
+.header{
+    background: linear-gradient(-45deg, #2e0731, rgb(26, 3, 16), #181339);
+    background-size: 300% 300%;
+    animation: background-animation 8s ease infinite  alternate;
+    padding: 160px 0 400px ;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem; 
+    position: relative; 
+}
+
+.header::after {
+    content: "";
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, var(--primary-color), transparent);   
+}
+
+.header__content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+}
+
+.header__logos{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.header__logos img{
+    object-fit: contain;
+}
+    
+.header__title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__title--thin{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.header__title--bold{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: .5rem;
+}
+
+.divider{
+    background: var(--divider-bg-color);
+    width: 75%;
+    height: 4px;
+    max-width: 700px;
+}
+
+.header__description--quisksand{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header__value{
+    text-align: center;
+}
+
+.text--price{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header__btn--wiggle{
+    animation: wiggle 2.5s  linear 1s infinite;
+}
+
+.header__rules{
+    max-width: 250px;
+    text-align: center;
+}
+
+.plans {
+    background: url("../images/background-movies-series.png") no-repeat;
+    background-size: cover;     
+}
+
+.plans .container{    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+}
+
+.plans__description h2{
+    margin: 0 auto 40px auto;
+    max-width: 1200px;
+}
+
+.plans__cards{
+    display: flex;
+    perspective: 1800px;
+    perspective-origin: top;
+    gap: 80px;
+    margin: 0 auto;   
+}
+
+.plans__cards .card{
+    width: 540px;
+    height: 650px;
+    padding: 50px 60px;
+    background: var(--card-bg-color);
+    border-radius: 10px;
+    transition: transform 1.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.plans__cards:has(.card:nth-child(1):hover)
+    .card:nth-child(2) {
+        transform: rotateY(-45deg);
+    
+}
+
+.plans__cards:has(.card:nth-child(2):hover)
+    .card:nth-child(1) {
+        transform: rotateY(45deg);
+    
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__header h3{
+    font-size: 1.5rem;
+}
+
+.card__header--price .price--bold{
+    color:var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card__list{
+    list-style-type: disc;
+    text-align: left;
+}
+
+.card__list li{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem; 
+}
+
+.card__list li::marker {
+    content: "+";
+    font-size: 2rem;
+}
+
+
+.card__btn .btn{
+    width: 100%;
+}
+
+.channels{
+    margin: 100px 0;
+    padding: 24px;
+}
+
+.channels__grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.channels__card{
+    border-radius: 16px;
+    border: 2px solid transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background 2s, border 1s, transform 1s;
+}
+
+.channels__card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 2s;
+
+}
+
+.channels__card:hover{
+    transform: scale(1.05);
+    outline: 2px solid var(--secondary-color);
+    
+}
+
+.channels__card img:hover{
+    opacity: 0;
+}
+
+.channels__card:nth-child(1):hover{
+    background-image: url(/assets/images/hbo-hover_0.webp);
+}
+
+.channels__card:nth-child(2):hover{
+    background-image: url(/assets/images/MAX-Hover.webp);
+}
+
+.channels__card:nth-child(3):hover{
+    background-image: url(/assets/images/DC-Hover.webp);
+}
+
+.channels__card:nth-child(4):hover{
+    background-image: url(/assets/images/WB-Hover.webp);
+}
+
+.channels__card:nth-child(5):hover{
+    background-image: url(/assets/images/CN-Hover.png);
+}
+
+.channels__card:nth-child(6):hover{
+    background-image: url(/assets/images/UCL-Hover.webp);
+}
+
+
+@keyframes wiggle {
+    0%,10%{
+        transform: rotate(0);
+    }
+
+    25%{
+        transform: rotate(-10deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    35%{
+        transform: rotate(-15deg);
+    }
+    40%{
+        transform: rotate(15deg);
+    }
+    45%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    55%{
+        transform: rotate(-15deg);
+    }
+    60%,
+    100%{
+        transform: rotate(0);
+    }
+    
+}
+
+@keyframes background-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 33%;
+    }
+    
+    
+}
