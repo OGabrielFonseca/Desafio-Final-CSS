@@ -135,11 +135,11 @@ As fontes utilizadas no projeto foram:
 <h2 id="demo">🌈 Demonstração</h2>
 
 <p>
-Você pode acessar a minha resolução final do projeto [clicando aqui](https://ogabrielfonseca.github.io/Desafio-Final-CSS/).  
+Você pode acessar a minha resolução final do projeto ![clicando aqui](https://ogabrielfonseca.github.io/Desafio-Final-CSS/).  
 </p>
 
 <p>
-Você pode acessar ao resultado final esperado do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
+Você pode acessar ao resultado final esperado do projeto ![clicando aqui](https://micheleambrosio.github.io/hbomax/).
 </p>
 
 <h2 id="author">💻 Autor do Código de resolução</h2>
