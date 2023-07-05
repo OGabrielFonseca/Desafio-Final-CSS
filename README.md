@@ -136,8 +136,15 @@ As fontes utilizadas no projeto foram:
 
 Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
 
-
-<h2 id="author">💻 Autora</h2>
+<h2 id="author">💻 Autor do Código de resolução</h2>
+<p>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/91344667?v=4"/>
+    <p>&nbsp&nbsp&nbspGabriel Henrique Fonseca<br>
+    &nbsp&nbsp&nbsp<a href="http://instagram.com/gabriel_hfonseca">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/OGabrielFonseca">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/gabriel-henrique-fonseca/">LinkedIn</a>&nbsp;|&nbsp;</p>
+</p>
+<br/><br/>
+<p>
+<h2 id="author">💻 Autora do Desafio</h2>
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
     <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
