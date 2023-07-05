@@ -10,6 +10,10 @@
   O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
 </p>
 
+<p align="center">
+Você pode acessar a minha resolução final do projeto [clicando aqui](https://ogabrielfonseca.github.io/Desafio-Final-CSS/). 
+</p>
+
 <a href="https://micheleambrosio.github.io/hbomax/">
   <img src="assets/images/readme-images/cover-2.png">
 </a>
